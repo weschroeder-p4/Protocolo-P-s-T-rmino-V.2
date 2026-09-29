@@ -1,0 +1,21 @@
+# Junk do macOS
+.DS_Store
+
+# Saídas automáticas do app do Claude (zips/prévias) — não vão pro site
+Claude outputs/
+
+# Arquivos-fonte (originais pesados) — ficam de backup local, não vão pro GitHub
+assets/img/*.png
+# ...exceto os ícones/OG realmente usados na página:
+!assets/img/favicon.png
+!assets/img/apple-touch-icon.png
+
+# WebP/JPG que não são mais usados na página
+assets/img/app-mobile.webp
+assets/img/app-desktop.webp
+assets/img/ebook-cover.webp
+assets/img/hero-casal.webp
+assets/img/hero-casal.jpg
+
+# Vídeo de origem (pesado) — usar app-demo-web.mp4
+assets/img/app-demo.mp4
